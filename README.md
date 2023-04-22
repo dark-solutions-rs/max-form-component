@@ -1,6 +1,6 @@
 # Max Form Componend
 
-Author: Darko Stevanovic [maketest@gmail.com](mailto:maketest@gmail.com)>
+Author: Darko Stevanovic [maketest@gmail.com](mailto:maketest@gmail.com)
 
 ## Created with Create React App
 
