@@ -1,8 +1,8 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders custom form', () => {
+test('render app', () => {
   render(<App />);
-  const linkElement = screen.getByText(/custom form/i);
-  expect(linkElement).toBeInTheDocument();
+  const element = screen.getByText(/custom form/i);
+  expect(element).toBeInTheDocument();
 });
