@@ -7,7 +7,7 @@ const FormContext = createContext<FormContextType<KeyValueObj> | undefined>(unde
 export const Form: FC<FormProps> = ({ initialValues, onSubmit, children }) => {
   const [value, setValue] = useState(initialValues);
 
-  const contextValue = {
+  const contextValue: FormContextType<KeyValueObj> = {
     value: value,
     setValue: (obj: KeyValueObj) => setValue(obj),
   };
